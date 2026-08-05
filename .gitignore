@@ -1,0 +1,16 @@
+@"
+# data files - large, scraped, not meant for version control
+*.csv
+!baseline.csv
+seen_repos.json
+
+# environment / cache
+.venv/
+__pycache__/
+*.pyc
+
+# unrelated documents that shouldn't be in this repo
+*.docx
+*.pdf
+~`$*
+"@ | Out-File -FilePath .gitignore -Encoding utf8
